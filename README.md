@@ -1,1 +1,1 @@
-# This is a poc for an admin application on pluralsight
+# A web-app for administering pluralsight courses and authors
