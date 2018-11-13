@@ -1,4 +1,4 @@
-/*eslint-disable strict */ //Disabling check because we can't run strict mode. Need global vars for bootstrap.
+/*eslint-disable strict */ //Disabling check because we can't run strict mode. Need global vars.
 
 var React = require('react');
 var Header = require('./common/header');
@@ -10,11 +10,12 @@ var App = React.createClass({
 		return (
 			<div>
 				<Header/>
-				<RouteHandler/>
+				<div className="container-fluid">
+					<RouteHandler/>
+				</div>
 			</div>
 		);
 	}
 });
-
 
 module.exports = App;
